@@ -1,0 +1,30 @@
+<main class= "content">
+
+  {{#each posts}}
+  {{>post}}
+  {{/each}}
+</main>
+
+<main class = "Comment-container">
+  {{#each comments}}
+  {{>comment}}
+  {{/each}}
+</main>
+
+<article class="comment-box">
+    <h3 class="comment-header">Leave a comment!</h3>
+    <div class="Comment-input-element">
+      <label for="Comment-attribution-input">Author</label>
+      <input type="Comment" id="Comment-attribution-input" placeholder="Your Name">
+    </div>
+    <div class="Comment-input-element">
+      <label for="Comment-text-input">Comment</label>
+      <textarea id="Comment-text-input" placeholder="Your Comment"></textarea>
+    </div>
+<!--
+    <input class="comment-field" id="comment-text-input" type="text" name="name" placeholder="Your Name">
+    <textarea class="comment-field" id="comment-area" name="comment" placeholder="Your Comment"></textarea>
+-->
+    <button type="button" class="leave-comment-button">Leave Comment</button>
+
+</article>
