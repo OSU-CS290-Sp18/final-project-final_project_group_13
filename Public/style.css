@@ -4,7 +4,7 @@ body {
 	background-color: #FFF;
 }
 
-.navlink.navitem a{
+a {
 	text-decoration: none;
 	color: #000;
 }
@@ -35,13 +35,8 @@ body {
 	display: inline-block;
 }
 
-<<<<<<< HEAD
-.navlink.navitem a {
-	 padding: 8px 10px;
-=======
 .navlink a {
 	 padding: 10px 10px;
->>>>>>> 00fd65cd338da50b3a33208eab38271dfb66cbd3
 	 display: inline-block;
 }
 
@@ -52,7 +47,7 @@ body {
 	line-height: 38px;
 }
 
-.navlink.navitem a:hover {
+a:hover {
 	color: #FFF;
 	cursor: pointer;
 }
@@ -88,10 +83,10 @@ body {
 	outline: none;
 }
 
-article.post {
+article {
 	background-color: #eee;
 	margin: auto;
-	width: 80%;
+	width: 60%;
 	height: 150px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -108,7 +103,7 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	min-height: 20px;
+	height: 20px;
 	font-size: 15px;
 }
 
@@ -118,7 +113,7 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	min-height: 20px;
+	height: 20px;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -129,8 +124,12 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	min-height: 20px;
+	height: 20px;
 	font-size: 15px;
+}
+
+.id {
+	display:none;
 }
 
 .container {
@@ -138,10 +137,15 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 }
+.postimage{
+
+	max-width: 100%;
+	max-height: 100%;
+}
 .postContainer{
 	flex: 0 1 28%;
 	display: flex;
-	margin: 40px;
+	margin: 40px auto;
 	padding: 10px;
 	border: 1px solid #dadada;
 	border-radius: 2px;
@@ -153,9 +157,21 @@ img {
 	cursor: pointer;
 }
 
+.author > a:hover {
+	color: #000000;
+}
+
 .title:hover {
 	color: #9370db;
 	cursor: pointer;
+}
+
+.title > a:hover {
+	color: #000000;
+}
+
+.topic {
+	display:none;
 }
 
 article.comment {
@@ -230,7 +246,6 @@ article.comment-box {
 	padding: 5px;
 }
 
-.comment-input {
-	background-color: #eee;
-	margin: auto;
+.comment-box {
+	display:none;
 }
