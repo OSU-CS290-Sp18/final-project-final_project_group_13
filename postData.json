@@ -3,6 +3,7 @@
     "text": "Cavs suck.",
     "title": "Warriors beat Cavs in 4!",
     "author": "NBA.com",
+    "image": "./images/post1pic.jpg",
     "topic": "Sports",
     "postID": "1"
   },
@@ -10,6 +11,7 @@
     "text": "But are you really surprised?",
     "title": "Trump said something racist",
     "author": "Washington Post",
+    "image": "./images/post2pic.jpg",
     "topic": "News",
     "postID": "2"
   },
