@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Cavs suck.",
+    "author": "NBA.com",
+    "topic": "Sports",
+    "postID": "1"
+  },
+  {
+    "text": "Trump said something racist",
+    "author": "Washington Post",
+    "topic": "News",
+    "postID": "2"
+  },
+  {
+    "text": "Edgar sucks at fortnite",
+    "author": "IGN.com",
+    "topic": "Gaming",
+    "postID": "3"
+  },
+  {
+    "text": "Post Malone is still ugly",
+    "author": "Worldstar Hiphop",
+    "topic": "Music",
+    "postID": "4"
+  },
+  {
+    "text": "I haven't been to the gym in weeks. What is wrong with me",
+    "author": "bodybuilder.com",
+    "topic": "Health",
+    "postID": "5"
+  },
+  {
+    "text": "Beavers are actually good at one sport, we're surprised too.",
+    "author": "dailybaro",
+    "topic": "Sports",
+    "postID": "6"
+  },
+  {
+    "text": "Dam Jam was better than Coachella? Ask OSU students!",
+    "author": "Corvallis Tribune",
+    "topic": "Music",
+    "postID": "7"
+  },
+  {
+    "text": "McDonalds drive thru makes you go through line multiple times if you have more than two orders! Students are outraged.",
+    "author": "Mens Fitness",
+    "topic": "Health",
+    "postID": "8"
+  },
+  {
+    "text": "CHINA.",
+    "author": "Trump",
+    "topic": "News",
+    "postID": "9"
+  },
+  {
+    "text": "Shotguns get nerfed in fortnite!",
+    "author": "Gamology",
+    "topic": "Gaming",
+    "postID": "10"
+  },
+]
