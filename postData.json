@@ -3,7 +3,7 @@
     "text": "Cavs suck.",
     "title": "Warriors beat Cavs in 4!",
     "author": "NBA.com",
-    "image": "./images/post1pic.jpg",
+    "image" : "https://www.tsn.ca/polopoly_fs/1.622739.1480736559!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/lebron-james.jpg",
     "topic": "Sports",
     "postID": "1"
   },
@@ -11,7 +11,7 @@
     "text": "But are you really surprised?",
     "title": "Trump said something racist",
     "author": "Washington Post",
-    "image": "./images/post2pic.jpg",
+    "image": "https://static.wixstatic.com/media/0cf371_87ee78bf330441dca24e7514d0c7911a~mv2.jpg/v1/fill/w_742,h_487,al_c,lg_1,q_85/0cf371_87ee78bf330441dca24e7514d0c7911a~mv2.webp",
     "topic": "News",
     "postID": "2"
   },
