@@ -1,60 +1,72 @@
 [
   {
     "text": "Cavs suck.",
+    "title": "Warriors beat Cavs in 4!",
     "author": "NBA.com",
+    "image": "./images/post1pic.jpg",
     "topic": "Sports",
     "postID": "1"
   },
   {
-    "text": "Trump said something racist",
+    "text": "But are you really surprised?",
+    "title": "Trump said something racist",
     "author": "Washington Post",
+    "image": "./images/post2pic.jpg",
     "topic": "News",
     "postID": "2"
   },
   {
-    "text": "Edgar sucks at fortnite",
+    "text": "He literally dies as soon as he lands every time. Can you do better?",
+    "title": "Edgar sucks at fortnite",
     "author": "IGN.com",
     "topic": "Gaming",
     "postID": "3"
   },
   {
-    "text": "Post Malone is still ugly",
+    "text": "Post malone gets some new ugly tattoos!",
+    "title": "Post Malone is still ugly",
     "author": "Worldstar Hiphop",
     "topic": "Music",
     "postID": "4"
   },
   {
     "text": "I haven't been to the gym in weeks. What is wrong with me",
+    "title": "10 ways to improve your gym habits!",
     "author": "bodybuilder.com",
     "topic": "Health",
     "postID": "5"
   },
   {
     "text": "Beavers are actually good at one sport, we're surprised too.",
+    "title": "BEAVERS BASEBALL TEAM GOES TO OMAHA",
     "author": "dailybaro",
     "topic": "Sports",
     "postID": "6"
   },
   {
-    "text": "Dam Jam was better than Coachella? Ask OSU students!",
+    "text": "This year at Dam Jam, artists Alison Wonderland and Kyle performed! Read what OSU students thought of the performance!",
+    "title": "Dam Jam was better than Coachella? Ask OSU students!",
     "author": "Corvallis Tribune",
     "topic": "Music",
     "postID": "7"
   },
   {
-    "text": "McDonalds drive thru makes you go through line multiple times if you have more than two orders! Students are outraged.",
+    "text": "McDonalds has a McProblem",
+    "title": "McDonalds drive thru makes you go through line multiple times if you have more than two orders! Students are outraged.",
     "author": "Mens Fitness",
     "topic": "Health",
     "postID": "8"
   },
   {
     "text": "CHINA.",
+    "title": "President Trump gives rousing press release!",
     "author": "Trump",
     "topic": "News",
     "postID": "9"
   },
   {
-    "text": "Shotguns get nerfed in fortnite!",
+    "text": "Are you ready to not get one pumped every time you get into a shotgun battle?!",
+    "title": "Shotguns get nerfed in fortnite!",
     "author": "Gamology",
     "topic": "Gaming",
     "postID": "10"
