@@ -1,0 +1,236 @@
+body {
+	font-family: Source Sans Pro, sans-serif;
+	margin: 0;
+	background-color: #FFF;
+}
+
+.navlink.navitem a{
+	text-decoration: none;
+	color: #000;
+}
+
+.site-title {
+	text-align: center;
+	margin: 0;
+	padding: 10px 20px;
+	font size: 30px;
+	font-weight: 100;
+	background-color:#9370DB;
+	color: #fff;
+}
+
+.navbar {
+	text-align: center;
+	background-color: #9370DB;
+	font-size : 19px;
+	line-height: 22px;
+}
+
+.navlist {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+.navitem {
+	display: inline-block;
+}
+
+<<<<<<< HEAD
+.navlink.navitem a {
+	 padding: 8px 10px;
+=======
+.navlink a {
+	 padding: 10px 10px;
+>>>>>>> 00fd65cd338da50b3a33208eab38271dfb66cbd3
+	 display: inline-block;
+}
+
+.navbar-search {
+
+	margin right: 100px;
+	padding: 0;
+	line-height: 38px;
+}
+
+.navlink.navitem a:hover {
+	color: #FFF;
+	cursor: pointer;
+}
+
+#navbar-search-input {
+	padding: 4px;
+	font-size: 16px;
+	background-color: #eee;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+}
+
+#navbar-search-input:focus {
+	outline: none;
+	background-color: #fff;
+}
+
+#navbar-search-button {
+	margin-left: -5px;
+	font-size: 16px;
+	background: none;
+	border: none;
+	color: #343434;
+	cursor: pointer;
+}
+
+#navbar-search-button:hover {
+	color: #eee;
+}
+
+#navbar-search-button:focus {
+	color: #eee;
+	outline: none;
+}
+
+article.post {
+	background-color: #eee;
+	margin: auto;
+	width: 80%;
+	height: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+img {
+	float: left;
+}
+
+.author {
+	background-color: #eee;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 20px;
+	font-size: 15px;
+}
+
+.title {
+	background-color: #eee;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text {
+	background-color: #eee;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 20px;
+	font-size: 15px;
+}
+
+.container {
+	margin: 50px 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.postContainer{
+	flex: 0 1 28%;
+	display: flex;
+	margin: 40px;
+	padding: 10px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+	background-color: #EEE;
+
+}
+.author:hover {
+	color: #9370db;
+	cursor: pointer;
+}
+
+.title:hover {
+	color: #9370db;
+	cursor: pointer;
+}
+
+article.comment {
+	background-color: #eee;
+	min-height: 90px;
+	width: 25%;
+	margin: auto;
+	padding: 5px;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.comment-author {
+	background-color: #eee;
+	color: #000;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.comment-author a {
+	text-decoration: none;
+}
+
+.comment-author a:hover {
+	color: #9370db;
+	cursor: pointer;
+}
+
+.comment-text {
+	background-color: #eee;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 15px;
+	min-height: 50px;
+}
+
+.comment-field {
+	display: flex;
+	align-items: center;
+}
+
+#comment-name {
+	font-size: 18px;
+	width: 90%;
+}
+
+#comment-area {
+	font-size: 15px;
+	width: 90%;
+	min-height: 60px;
+}
+
+.leave-comment-button {
+	background-color: #9370db;
+	border: none;
+}
+
+.leave-comment-button:hover {
+	color: #eee;
+	cursor: pointer;
+}
+
+article.comment-box {
+	background-color: #eee;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+	width: 25%;
+	margin: auto;
+	padding: 5px;
+}
+
+.comment-input {
+	background-color: #eee;
+	margin: auto;
+}
