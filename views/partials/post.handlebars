@@ -1,5 +1,5 @@
-<article>
-	<img src="{{image}}">
+<article class ="postContainer">
+	<img class = "postImage" src="{{image}}" width= '150' height= '150'>
 	<div class="content">
 		<p class="author">
 			<a href="{{author-link}}">{{author}}</a>
@@ -10,5 +10,16 @@
 		<p class="text">
 			{{text}}
 		</p>
+	</div>
+</article>
+
+
+
+<article class="comment-box">
+	<div class="comment-input">
+		<h3 class="comment-header">Leave a comment!</h3>
+		<input class="comment-field" id="comment-name" type="text" name="name" placeholder="Your Name">
+		<textarea class="comment-field" id="comment-area" name="comment" placeholder="Your Comment"></textarea>
+		<button type="button" class="leave-comment-button">Leave Comment</button>
 	</div>
 </article>
