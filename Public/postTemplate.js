@@ -1,12 +1,12 @@
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
-templates['post'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+templates['main'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, helper;
 
-  return "<article class=\"twit\">\r\n  <div class=\"twit-icon\">\r\n    <i class=\"fas fa-bullhorn\"></i>\r\n  </div>\r\n  <div class=\"twit-content\">\r\n    <p class=\"twit-text\">\r\n    "
-    + alias4(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text","hash":{},"data":data}) : helper)))
-    + "\r\n    </p>\r\n    <p class=\"twit-attribution\">\r\n      <a href=\"#\">"
-    + alias4(((helper = (helper = helpers.author || (depth0 != null ? depth0.author : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"author","hash":{},"data":data}) : helper)))
-    + "</a>\r\n    </p>\r\n  </div>\r\n</article>\r\n";
-},"useData":true});
+  return "<!DOCTYPE html>\r\n<html>\r\n	<head>\r\n		<meta charset=\"utf-8\">\r\n		<title>Wahoo</title>\r\n		<link rel=\"stylesheet\" href=\"./style.css\" media=\"screen\">\r\n		<script src=\"https://use.fontawesome.com/releases/v5.0.9/js/all.js\" defer></script>\r\n    		<script src=\"https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.runtime.js\" defer></script>\r\n		<script src=\"/index.js\" charset=\"utf-8\" defer></script>\r\n	</head>\r\n	<body>\r\n"
+    + ((stack1 = container.invokePartial(partials.header,depth0,{"name":"header","data":data,"indent":"\t\t","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "		"
+    + ((stack1 = ((helper = (helper = helpers.body || (depth0 != null ? depth0.body : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"body","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "\r\n	</body>\r\n</html>\r\n";
+},"usePartial":true,"useData":true});
 })();
