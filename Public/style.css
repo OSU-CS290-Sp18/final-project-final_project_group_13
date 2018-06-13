@@ -4,7 +4,7 @@ body {
 	background-color: #FFF;
 }
 
-a {
+.navlink.navitem a{
 	text-decoration: none;
 	color: #000;
 }
@@ -35,8 +35,13 @@ a {
 	display: inline-block;
 }
 
+<<<<<<< HEAD
+.navlink.navitem a {
+	 padding: 8px 10px;
+=======
 .navlink a {
 	 padding: 10px 10px;
+>>>>>>> 00fd65cd338da50b3a33208eab38271dfb66cbd3
 	 display: inline-block;
 }
 
@@ -47,7 +52,7 @@ a {
 	line-height: 38px;
 }
 
-a:hover {
+.navlink.navitem a:hover {
 	color: #FFF;
 	cursor: pointer;
 }
@@ -83,7 +88,7 @@ a:hover {
 	outline: none;
 }
 
-article {
+article.post {
 	background-color: #eee;
 	margin: auto;
 	width: 80%;
@@ -103,7 +108,7 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	height: 20px;
+	min-height: 20px;
 	font-size: 15px;
 }
 
@@ -113,7 +118,7 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	height: 20px;
+	min-height: 20px;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -124,7 +129,7 @@ img {
 	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	height: 20px;
+	min-height: 20px;
 	font-size: 15px;
 }
 
@@ -132,11 +137,6 @@ img {
 	margin: 50px 10%;
 	display: flex;
 	flex-wrap: wrap;
-}
-.postimage{
-
-	max-width: 100%;
-	max-height: 100%;
 }
 .postContainer{
 	flex: 0 1 28%;
@@ -156,4 +156,81 @@ img {
 .title:hover {
 	color: #9370db;
 	cursor: pointer;
+}
+
+article.comment {
+	background-color: #eee;
+	min-height: 90px;
+	width: 25%;
+	margin: auto;
+	padding: 5px;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.comment-author {
+	background-color: #eee;
+	color: #000;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.comment-author a {
+	text-decoration: none;
+}
+
+.comment-author a:hover {
+	color: #9370db;
+	cursor: pointer;
+}
+
+.comment-text {
+	background-color: #eee;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 15px;
+	min-height: 50px;
+}
+
+.comment-field {
+	display: flex;
+	align-items: center;
+}
+
+#comment-name {
+	font-size: 18px;
+	width: 90%;
+}
+
+#comment-area {
+	font-size: 15px;
+	width: 90%;
+	min-height: 60px;
+}
+
+.leave-comment-button {
+	background-color: #9370db;
+	border: none;
+}
+
+.leave-comment-button:hover {
+	color: #eee;
+	cursor: pointer;
+}
+
+article.comment-box {
+	background-color: #eee;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+	width: 25%;
+	margin: auto;
+	padding: 5px;
+}
+
+.comment-input {
+	background-color: #eee;
+	margin: auto;
 }
