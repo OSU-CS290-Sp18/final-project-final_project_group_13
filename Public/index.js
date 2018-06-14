@@ -10,12 +10,6 @@ function insertNewComment(CommentText, CommentAuthor, postID) {
   CommentContentElem.classList.add('Comment-content');
   CommentElem.appendChild(CommentContentElem);
 
-  var CommentTextNode = document.createTextNode(CommentText);
-  var CommentTextElem = document.createElement('p');
-  CommentTextElem.classList.add('Comment-text');
-  CommentTextElem.appendChild(CommentTextNode);
-  CommentContentElem.appendChild(CommentTextElem);
-
   var CommentAttributionTextNode = document.createTextNode(CommentAuthor);
   var CommentAttributionLinkElem = document.createElement('a');
   CommentAttributionLinkElem.href = '#';
@@ -24,6 +18,12 @@ function insertNewComment(CommentText, CommentAuthor, postID) {
   CommentAttributionElem.classList.add('Comment-attribution');
   CommentAttributionElem.appendChild(CommentAttributionLinkElem);
   CommentContentElem.appendChild(CommentAttributionElem);
+
+  var CommentTextNode = document.createTextNode(CommentText);
+  var CommentTextElem = document.createElement('p');
+  CommentTextElem.classList.add('Comment-text');
+  CommentTextElem.appendChild(CommentTextNode);
+  CommentContentElem.appendChild(CommentTextElem);
 
   var CommentContainer = document.querySelector('main.Comment-container');
   CommentContainer.appendChild(CommentElem);
@@ -262,7 +262,27 @@ function focusPosts(focuspost){
 function navClick(topic){
   var newComment = document.getElementsByClassName('comment-box')[0];
   newComment.style.display = "none";
+  addActive(topic);
   postSearchUpdatebyTopic(topic);
+}
+
+function addActive(topic){
+
+  var newsItem = document.getElementById('news');
+  newsItem.classList.remove('active');
+  var gamingItem = document.getElementById('gaming');
+  gamingItem.classList.remove('active');
+  var healthItem = document.getElementById('health');
+  healthItem.classList.remove('active');
+  var musicItem = document.getElementById('music');
+  musicItem.classList.remove('active');
+  var sportsItem = document.getElementById('sports');
+  sportsItem.classList.remove('active');
+  var homeItem = document.getElementById('home');
+  homeItem.classList.remove('active');
+
+  var navitem = document.getElementById(topic);
+  navitem.classList.add('active');
 }
 
 
