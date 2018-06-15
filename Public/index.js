@@ -35,9 +35,9 @@ function insertNewPost(text,author,title,topic,image){
 
   var postImg = document.createElement('img');
   postImg.classList.add('postImage');
-  postImg.src = image;
-  postImg.width = "150";
-  postImg.height = "150";
+  postImg.setAttribute("src", image);
+  postImg.setAttribute("width", "150");
+  postImg.setAttribute("height", "150");
   PostElem.appendChild(postImg);
 
   var PostContentElem = document.createElement('div');
@@ -186,7 +186,7 @@ function postSearchUpdate() {
 
   allPosts.forEach(function (Post) {
     if (PostMatchesSearchQuery(Post, searchQuery)) {
-      insertNewPost(Post.text, Post.author,Post.title,Post.topic,Post.Img);
+      insertNewPost(Post.text, Post.author,Post.title,Post.topic,Post.image);
     }
   });
 
@@ -202,7 +202,7 @@ function postSearchUpdatebyTopic(searchQuery) {
   }
   allPosts.forEach(function (Post) {
     if (PostMatchesTopic(Post, searchQuery)) {
-      insertNewPost(Post.text, Post.author,Post.title,Post.topic,Post.Img);
+      insertNewPost(Post.text, Post.author,Post.title,Post.topic,Post.image);
     }
   });
 
@@ -240,10 +240,10 @@ function parsePostElem(PostElem) {
 
   var PostTopicElem = PostElem.querySelector('.topic');
   Post.topic = PostTopicElem.textContent.trim();
-/*
-  var PostImgElem = PostElem.querySelector('.PostImg');
+
+  var PostImgElem = PostElem.querySelector('.PostImage');
   Post.image = PostImgElem.src.trim();
-*/
+
   return Post;
 
 }
