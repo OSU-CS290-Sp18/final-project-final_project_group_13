@@ -241,7 +241,7 @@ function parsePostElem(PostElem) {
   var PostTopicElem = PostElem.querySelector('.topic');
   Post.topic = PostTopicElem.textContent.trim();
 
-  var PostImgElem = PostElem.querySelector('.PostImage');
+  var PostImgElem = PostElem.querySelector('.postImage');
   Post.image = PostImgElem.src.trim();
 
   return Post;
@@ -262,27 +262,7 @@ function focusPosts(focuspost){
 function navClick(topic){
   var newComment = document.getElementsByClassName('comment-box')[0];
   newComment.style.display = "none";
-  addActive(topic);
   postSearchUpdatebyTopic(topic);
-}
-
-function addActive(topic){
-
-  var newsItem = document.getElementById('news');
-  newsItem.classList.remove('active');
-  var gamingItem = document.getElementById('gaming');
-  gamingItem.classList.remove('active');
-  var healthItem = document.getElementById('health');
-  healthItem.classList.remove('active');
-  var musicItem = document.getElementById('music');
-  musicItem.classList.remove('active');
-  var sportsItem = document.getElementById('sports');
-  sportsItem.classList.remove('active');
-  var homeItem = document.getElementById('home');
-  homeItem.classList.remove('active');
-
-  var navitem = document.getElementById(topic);
-  navitem.classList.add('active');
 }
 
 
